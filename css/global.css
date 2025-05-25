@@ -1,0 +1,62 @@
+:root {
+    --bg0: var(--accent);
+    --bg: #1e1e1e;
+    --bg2: #282828;
+    --fg: #d4d4d4;
+    --accent: #ab65fc;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: var(--bg);
+    color: var(--fg);
+    margin: 6em 2em;
+}
+
+.wrapper {
+    max-width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: var(--accent);
+}
+h1 {
+    font-size: 36px;
+}
+img {
+    max-width: 100%;
+}
+hr {
+    margin: 2em 0;
+    border: 1px solid var(--bg2);
+}
+
+.chatbox {
+    background-color: var(--bg);
+}
+.chatbox ul {
+    padding: 1em;
+    margin: 0;
+    list-style-type: none;
+}
+.chatbox ul li {
+    line-height: 1.4em;
+}
+#msg-input {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+    margin-top: 0;
+    padding: 0.8em 1em;
+    background-color: var(--bg2);
+    color: var(--fg);
+}
+#msg-input:focus {
+    outline: none;
+}
